@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tpos-homework-3"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Maxim Borodynya <borody.maxim@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/JaskierM/tpos-homework-3"
+keywords = ["linux", "ansible", "vagrant"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
